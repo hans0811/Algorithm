@@ -85,6 +85,7 @@
 | 412  | Fizz Buzz                                       | Easy       |
 | 509  | Fibonacci Number                                | Easy       |
 | 575  | Distribute Candies                              | Easy       |
+| 630  | Course Schedule III                             | Medium     |
 | 670  | Maximum Swap                                    | Medium     |
 | 680  | Valid Palindrome II                             | Easy       |
 | 700  | Search in a Binary Search Tree                  | Easy       |
