@@ -1,7 +1,6 @@
 package com.company.queue;
 
-
-import com.hans.tree.TreeNode;
+import com.company.common.TreeNode;
 
 import java.util.*;
 

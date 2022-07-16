@@ -1,6 +1,8 @@
 package com.company.queue;
 
-import com.hans.linkedlist.ListNode;
+
+
+import com.company.LinkedList.ListNode;
 
 import java.util.PriorityQueue;
 

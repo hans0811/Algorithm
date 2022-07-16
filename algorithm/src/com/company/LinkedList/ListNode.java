@@ -1,10 +1,11 @@
 package com.company.LinkedList;
 
 public class ListNode {
-    Integer  val;
-    ListNode next;
-    ListNode() {};
-    ListNode(int val) { this.val = val; }
+
+    public Integer  val;
+    public ListNode next;
+    public ListNode() {};
+    public ListNode(int val) { this.val = val; }
     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
 
     @Override

@@ -1,7 +1,5 @@
 package com.company.LinkedList;
 
-import javax.xml.soap.Node;
-
 public class L0024SwapNodesInPairs {
     public static ListNode swapPairs(ListNode head) {
         if(head == null) return head;
