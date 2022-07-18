@@ -3,6 +3,7 @@ package amazon;
 import java.util.HashMap;
 
 /**
+ * max average stock price
  * @author hans
  */
 public class findMax {
