@@ -1,4 +1,4 @@
-# Algorithm
+# Algorithm-1
 
 
 | ID   | Title                                           | Difficulty |
@@ -100,3 +100,4 @@
 | 1342 | Number of Steps to Reduce a Number to Zero      | Easy       |
 | 1346 | Check If N and Its Double Exist                 | Easy       |
 | 1642 | Furthest Building You Can Reach                 | Medium     |
+
