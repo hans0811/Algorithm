@@ -8,7 +8,6 @@ public interface A012_00023MergekSortedLists_hard {
     public static void mergeK(ListNode[] lists, int p, int r){
 
         if(p<r){
-
             int q = (p+r)/2;
             mergeK(lists, p, q);
             mergeK(lists, q+1, r);

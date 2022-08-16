@@ -1,0 +1,48 @@
+package amazonLeetcode;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class A007_00049GroupAnagrams {
+    public List<List<String>> groupAnagrams(String[] strs) {
+        List<List<String>> res = new ArrayList<>();
+        HashMap<String, List<String>> map = new HashMap<>();
+
+        for(String s : strs){
+
+            int[] count = new int[26];
+
+            for(int i=0; i < s.length(); i++){
+                count[s.charAt(i) - 'a']++;
+            }
+
+            StringBuilder sb = new StringBuilder();
+
+            for(int i =0; i < 26; i++){
+                if(count[i] == 0) continue;
+                for(int j=count[i]; j >=0; j--){
+                    sb.append(i + 'a');
+                }
+
+            }
+
+            String temp = sb.toString();
+
+            if(!map.containsKey(temp)){
+                List<String> group = new ArrayList<>();
+                group.add(s);
+                map.put(temp, group);
+            }else{
+                map.get(temp).add(s);
+            }
+
+        }
+
+        for(Map.Entry<String, List<String>> entry : map.entrySet()){
+            res.add(entry.getValue());
+        }
+        return res;
+    }
+}
