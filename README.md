@@ -1,4 +1,4 @@
-# Algorithm
+# Algorithm-1
 
 
 | ID   | Title                                           | Difficulty |
