@@ -5,6 +5,6 @@ package com.hans.Dynamic;
  */
 public class L0064MinimumPathSum {
     public static void main(String[] args) {
-        boolean
+        System.out.println("test");
     }
 }

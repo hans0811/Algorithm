@@ -1,10 +1,11 @@
-package algorithm.tree;
+package com.hans.tree;
 
-import common.TreeNode;
+import com.hans.tree.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
+
 
 public class L00114FlattenBinaryTreeToLinkedList {
 

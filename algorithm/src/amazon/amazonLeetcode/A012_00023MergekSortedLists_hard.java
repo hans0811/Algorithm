@@ -1,6 +1,6 @@
-package amazonLeetcode;
+package com.hans.amazon.amazonLeetcode;
 
-import algorithm.linkedlist.ListNode;
+import com.hans.linkedlist.ListNode;
 
 public interface A012_00023MergekSortedLists_hard {
 

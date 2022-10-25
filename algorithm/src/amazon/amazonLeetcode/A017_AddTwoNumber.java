@@ -1,6 +1,6 @@
-package amazonLeetcode;
+package com.hans.amazon.amazonLeetcode;
 
-import algorithm.linkedlist.ListNode;
+import com.hans.linkedlist.ListNode;
 
 public class A017_AddTwoNumber {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {

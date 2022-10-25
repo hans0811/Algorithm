@@ -1,4 +1,4 @@
-package book.ClassicComputerScienceProblemsInJava.c1.smallProblems01;
+package com.hans.book.ClassicComputerScienceProblemsInJava.c1.smallProblems01;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,7 +6,8 @@ import java.util.stream.IntStream;
 
 public class Fib {
 
-    static Map<Integer, Integer> memo = new HashMap<>(Map.of(0, 0, 1, 1));
+    //static Map<Integer, Integer> memo = new HashMap<>(Map.of(0, 0, 1, 1));
+    static Map<Integer, Integer> memo = new HashMap<>();
     public static int fib1(int n){
         if( n < 2 ) return n;
         return fib1(n -1 ) + fib1( n -2);

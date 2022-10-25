@@ -1,6 +1,6 @@
-package amazonLeetcode;
+package com.hans.amazon.amazonLeetcode;
 
-import algorithm.linkedlist.ListNode;
+import com.hans.linkedlist.ListNode;
 
 public class A011_00021MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
