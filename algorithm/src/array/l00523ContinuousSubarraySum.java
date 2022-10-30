@@ -18,7 +18,7 @@ public class l00523ContinuousSubarraySum {
         return false;
     }
 
-    public boolean checkSubarraySumUsingSet(int[] nums, int k){
+    public static boolean checkSubarraySumUsingSet(int[] nums, int k){
         int n = nums.length, sum=0, pre=0;
         HashSet<Integer> set = new HashSet<>();
 
@@ -31,5 +31,10 @@ public class l00523ContinuousSubarraySum {
         }
 
         return false;
+    }
+
+    public static void main(String[] args) {
+        int[] case01 = {23,2,6,4,7};
+        System.out.println(checkSubarraySumUsingSet(case01, 13));
     }
 }
